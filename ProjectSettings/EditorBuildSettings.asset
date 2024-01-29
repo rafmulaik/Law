@@ -12,5 +12,7 @@ EditorBuildSettings:
     path: Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Office.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f69a84954adf341c4947e7f84be52dd0,
+      type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 35c746f905a1648fd938f26e51086082,
       type: 2}

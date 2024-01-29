@@ -605,7 +605,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -18249,6 +18249,7 @@ GameObject:
   - component: {fileID: 3341536942727835427}
   - component: {fileID: 8953069508178997155}
   - component: {fileID: 215362732434055914}
+  - component: {fileID: 8953069508178997156}
   m_Layer: 0
   m_Name: Box002
   m_TagString: Untagged
@@ -19220,6 +19221,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8513008403930069203}
+  m_Mesh: {fileID: -2232952877369940510, guid: d42bfd19966c84b5685a4a4b63c49f9e, type: 3}
+--- !u!64 &8953069508178997156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8513008403930069203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2232952877369940510, guid: d42bfd19966c84b5685a4a4b63c49f9e, type: 3}
 --- !u!1 &8955820881295422648
 GameObject:
